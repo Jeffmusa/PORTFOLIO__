@@ -1,3 +1,7 @@
+#about{
+    background-color: #1b0a0c;
+}
+
 
 .nav {
  
@@ -97,16 +101,14 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.text-primary {
-    color: #1ee2e7;
-}
+
 
 p {
     font-size: 14px;
     line-height: 1.75;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -116,7 +118,11 @@ h6 {
     font-size: 25px;
     line-break: strict;
     font-family: 'Mali', cursive;
+    color: #eee;
 
+}
+h1{
+    font-family: 'Mali', cursive
 }
 
 header {
@@ -203,22 +209,6 @@ section h3.section-subheading {
     }
 }
 
-#services{
-   
-      font-size: 30px;
-      
-      color:white;
-      
-     
-}
-
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
 .timeline {
     position: relative;
     padding: 0;
@@ -281,17 +271,12 @@ section h3.section-subheading {
     width: 80px;
     height: 180px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #fdfdfd;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
-    background-color: #1ee2e7;
-}
-
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
+    color: rgb(0, 0, 0);
+    background-color: #084242;
+    font-family: 'Ultra', serif;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -318,14 +303,8 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
-.timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
 
-.timeline .timeline-heading h4.subheading {
-    text-transform: none;
-}
+
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
@@ -357,9 +336,8 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
-        line-height: 18px;
+      
+        font-family: 'Ultra', serif;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -577,4 +555,20 @@ a:hover {
   
     text-align: center;
   
+}
+
+
+#image:hover{
+    color: rgb(228, 76, 76);
+    opacity: 0.6;
+    
+}
+#portfolio{
+    background-color: #084242;
+    /* background-image: url(http://fintechnews.ch/wp-content/uploads/2016/08/Citi-Disruptive-Innovations-Report-2016.jpg);
+    background-size: cover;
+    background-attachment: fixed; */
+}
+a:hover{
+    color: #27e716;
 }
