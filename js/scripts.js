@@ -3,7 +3,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = '_________________________________________________'
+    this.chars = '____------------------------_____________________________________________'
     this.update = this.update.bind(this)
   }
   setText(newText) {
@@ -58,11 +58,12 @@ class TextScramble {
 
 
 const phrases = [
-  'Hello,',
-  'My name is Geofrey',
+  'Hello there,',
+  'My name is Geoffrey',
   'I am a full stack web dev ',
-  'I do coding,',
-  ''
+  'addicted to coding,',
+  'check me out'
+  
 
 ]
 
