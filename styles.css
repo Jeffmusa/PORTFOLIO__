@@ -9,15 +9,6 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-
-
-
-p {
-    font-size: 14px;
-    line-height: 1.75;
-}
-
-
 h2,
 h3,
 h4,
@@ -324,141 +315,6 @@ section#contact {
     display: flex;
  }
 
-
-
-.instagramicon {
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-}
-
-.instagramicon:hover {
-    border-radius: 30px;
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-    padding: 5px;
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-}
-
-.dcicon {
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-}
-
-.dcicon:hover {
-    border-radius: 30px;
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-    background: #7289DA;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-a:hover {
-    color: lightgrey;
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-.mailicon {
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-}
-
-.mailicon:hover {
-    border-radius: 30px;
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-    background: lightcoral;
-}
-
-.twittericon {
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-}
-
-.twittericon:hover {
-    border-radius: 30px;
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-    background: #1da1f2;
-}
-
-
-.tsicon {
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-}
-
-.tsicon:hover {
-    border-radius: 30px;
-    width: 50px;
-    height: 50px;
-    transition: 0.2s;
-    padding: 5px;
-    background: #2580c3;
-}
-
-
-
-.PC {
-    display: block;
-    width: 100%;
-    height: auto;
-    visibility: visible;
-
-}
-
-.Mobile {
-    display: none;
-    width: 0%;
-    height: 0%;
-    visibility: collapse;
-}
-
-@media only screen and (max-width: 960px) {
-
-    .PC {
-        display: none;
-        width: 0%;
-        height: 0%;
-        visibility: collapse;
-    }
-
-    .Mobile {
-        display: block;
-        width: 100%;
-        height: auto;
-        visibility: visible;
-
-    }
-}
-
-
-
 .flex-containerin-flex>div {
     color: white;
   
@@ -467,11 +323,6 @@ a:hover {
 }
 
 
-#image:hover{
-    color: rgb(228, 76, 76);
-    opacity: 0.6;
-    
-}
 #portfolio{
     background-color: #084242;
     /* background-image: url(http://fintechnews.ch/wp-content/uploads/2016/08/Citi-Disruptive-Innovations-Report-2016.jpg);
