@@ -14,7 +14,6 @@ h3,
 h4,
 h5,
 h6 {
-    /* text-transform: uppercase; */
     font-size: 25px;
     line-break: strict;
     font-family: 'Mali', cursive;
@@ -330,5 +329,14 @@ section#contact {
     background-attachment: fixed; */
 }
 a:hover{
+    color: #27e716;
+    text-decoration: none;
+}
+a{
+    color: rgb(253, 253, 246);
+    
+}
+
+.text{
     color: #27e716;
 }
