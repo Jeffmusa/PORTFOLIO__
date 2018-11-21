@@ -1,0 +1,67 @@
+    
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>HTML/CSS</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class=" tex">I use HTML in my python web apps to display data to the screen.CSS describes
+                                        the presentation of my HTML documents.I use it for my styling</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <h4 style="font-size:20px;">
+                                    Java
+                                    <br>s
+                                    <br>cript</h4>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Javascript</h4>
+
+                                </div>
+                                <div class="timeline-body">
+                                    <p class=" tex">JavaScript is most commonly used as a client side scripting language.I
+                                        do use this in my HTML page</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Angular
+                                    <br>
+                                    <br>JS</h4>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>AngularJS </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class=" tex">AngularJS is a JavaScript-based open-source front-end web application
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <h4 style="font-size:20px;">
+
+                                    <br>
+                                    <br></h4>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>PostgreSQL</h4>
+
+                                </div>
+                                <div class="timeline-body">
+                                    <p class=" tex">I use this one for storing my data in the database.I am currently full
+                                        skilled in postgreSQL.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
