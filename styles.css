@@ -1,3 +1,4 @@
+
 #about{
     background-color: #084242;
     
@@ -13,9 +14,12 @@ h6{
 
 #skills{
     padding: 70px;
-    
-}
+    background-color: rgba(0, 0, 0, 0.6);
 
+}
+#skis{
+    background-color: #084242; 
+}
 
 
 body {
@@ -98,7 +102,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 5%;
+    padding: 2%;
 }
 
 section h2.section-heading {
@@ -170,109 +174,106 @@ a {
 }
 
   
+#a{
+   background-color: #1a1919; 
+}
 
 
-.footer-social-icons {
-    width: 350px;
-    display:block;
-    margin: 0 auto;
-}
-.social-icon {
-    color: #fff;
-}
-ul.social-icons {
-    margin-top: 10px;
-}
-.social-icons li {
-    vertical-align: top;
+ul.social-network {
+    list-style: none;
     display: inline;
-    height: 100px;
+    margin-left: 0 !important;
+    padding: 0;
+    
 }
-.social-icons a {
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+/* footer social icons */
+.social-network #a.icoRss:hover {
+    background-color: rgb(177, 5, 56);
+}
+
+.social-network #a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network #a.icoTwitter:hover {
+    background-color: #f0cd0a;
+}
+
+.social-network #a.icoGoogle:hover {
+    background-color: rgb(37, 240, 11);
+}
+
+.social-network #a.icoVimeo:hover {
+    background-color: #0590B8;
+}
+
+.social-network #a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: rgb(255, 250, 250);
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: rgb(238, 17, 54);
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
     color: #fff;
-    text-decoration: none;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
 }
-.fa-facebook {
-    padding:10px 9px;
-    font-size: 30px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #030303;
-}
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
-.fa-twitter {
-    padding:10px 5px;
-    font-size: 30px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #030303;
-}
-.fa-twitter:hover {
-    background-color: #00aced;
-}
-.fa-instagram {
-    padding:10px 8px;
-    font-size: 30px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #030303;
-}
-.fa-instagram:hover {
-    background-color: #a7b904;
-}
-
-.fa-linkedin {
-    padding:10px 8px;
-    font-size: 30px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #030303;
-}
-.fa-linkedin:hover {
-    background-color: #0073a4;
-}
-.fa-envelope {
-    padding:10px 8px;
-    font-size: 30px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #030303;
-}
-.fa-envelope:hover {
-    background-color: #eed91b;
-}
-
-.fa-github {
-    padding:10px 8px;
-    font-size: 30px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #030303;
-}
-.fa-github:hover {
-    background-color: green;
-}
-
 
 
   .hovereffect {
@@ -372,7 +373,7 @@ ul.social-icons {
 
   #projects{
       background-color: #084242;
-      
+ 
      
   }
 
